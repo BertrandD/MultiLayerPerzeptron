@@ -16,6 +16,9 @@ This is a java implementation of a Multi-Layer Perzeptron. This was an assignmen
 
 `java -jar ./target/tnn-1.0-SNAPSHOT.jar`
 
+Valid args (opt.) : `-data=DATAFILE` and `-test=TESTFILE`
+For example: `-data=training.dat -test=test.dat`
+
 # Visualisation
 
 `echo 'plot "learning.curve"' | gnuplot -p`
